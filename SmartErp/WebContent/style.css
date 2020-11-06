@@ -1,0 +1,48 @@
+*
+{
+	margin:0px;
+}
+
+header,footer
+{
+	background-color:blue;
+	color:white;
+	height:100px;
+}
+
+header ul li
+{
+	display:inline-block;
+	margin-left:20px;
+}
+
+header ul li a
+{
+	color:white;
+	font-size:20px;
+	text-decoration: none;
+}
+
+header ul li a:hover
+{
+	color:red;
+}
+
+#middle
+{
+	height:500px;
+	background-color: cyan;
+}
+
+#middle .part
+{
+	  float:left;
+	  height:60px;
+	  padding-top:20px;
+	  border-radius:10px;
+	  text-align:center;
+	  margin-top:50px;
+	  margin-left:50px;
+	  width:25%;
+	  background-color:gray;
+}
